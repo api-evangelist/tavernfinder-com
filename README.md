@@ -1,4 +1,4 @@
-# tavernfinder-com
+# Tavern Finder
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -65,4 +65,122 @@
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
 tavernfinder-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://tavernfinder.com/
+
+**Areas:** Gaming Events · Tabletop Games · Local Community · Card Games
+
+## Tavern Finder on APIs.io
+
+Everything profiled for Tavern Finder is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/tavernfinder-com/](https://apis.io/providers/tavernfinder-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (6)
+
+- [Tavern Finder Activities API](https://apis.io/apis/tavernfinder-com/tavernfinder-com-activities-api/) — The Activities API from Tavern Finder — 1 operation(s) for activities.
+- [Tavern Finder Auth API](https://apis.io/apis/tavernfinder-com/tavernfinder-com-auth-api/) — The Auth API from Tavern Finder — 2 operation(s) for auth.
+- [Tavern Finder Games Bgg API](https://apis.io/apis/tavernfinder-com/tavernfinder-com-games-bgg-api/) — The Games Bgg API from Tavern Finder — 1 operation(s) for games bgg.
+- [Tavern Finder Geo API](https://apis.io/apis/tavernfinder-com/tavernfinder-com-geo-api/) — The Geo API from Tavern Finder — 1 operation(s) for geo.
+- [Tavern Finder Users API](https://apis.io/apis/tavernfinder-com/tavernfinder-com-users-api/) — The Users API from Tavern Finder — 2 operation(s) for users.
+- [Tavern Finder Venues API](https://apis.io/apis/tavernfinder-com/tavernfinder-com-venues-api/) — The Venues API from Tavern Finder — 4 operation(s) for venues.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Tavern Finder Agentic Access](https://apis.io/agentic-access/tavernfinder-com/tavernfinder-com-agentic-access/)
+
+#### JSON Schema (4)
+
+The data models the API reads and writes.
+
+- [AccessToken](https://apis.io/schemas/tavernfinder-com/tavernfinder-com-access-token/)
+- [Activity](https://apis.io/schemas/tavernfinder-com/tavernfinder-com-activity/)
+- [Game](https://apis.io/schemas/tavernfinder-com/tavernfinder-com-game/)
+- [Venue](https://apis.io/schemas/tavernfinder-com/tavernfinder-com-venue/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Tavernfinder Com Context](https://apis.io/jsonld/tavernfinder-com/tavernfinder-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Tavern Finder API Rules](https://apis.io/rules/tavernfinder-com/tavernfinder-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Tavern Finder Authentication](https://apis.io/security/tavernfinder-com/tavernfinder-com-authentication/)
+- [Tavern Finder Domain Security](https://apis.io/security/tavernfinder-com/tavernfinder-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://tavernfinder.com/)
+- [Documentation](https://dev.tavernfinder.com/)
+- [API reference](https://tavernfinder.com/pt/docs/api)
+- [Terms of service](https://tavernfinder.com/pt/terms)
+- [Privacy policy](https://tavernfinder.com/pt/privacy)
+
+## API Evangelist rating
+
+**Kin Score 40.7** — developing · rubric 0.27.0 · scored 2026-11-25
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 53.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 34.2 |
+
+**Agent readiness 30.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | partial |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/tavernfinder-com/](https://apis.io/providers/tavernfinder-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Tavern Finder: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/tavernfinder-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
